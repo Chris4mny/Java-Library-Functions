@@ -166,18 +166,18 @@ public class MathLibraryFunctions
 			useAgain = wouldYouLikeToUseAgain();
 
 			runProgramAgain(useAgain);
-		} else if (pickAFunction.equals("9")) // Square root
+		} else if (pickAFunction.equals("9")) // Square a number
 		{
 			int numb1;
 			int results;
 
-			MathLibraryMessagesCenter("You selected SQUARE ROOT");
+			MathLibraryMessagesCenter("You selected SQUARE a number");
 
 			numb1 = inputANumber("Enter a number to be squared: ");
 
-			results = squareRoot(numb1);
+			results = squaredNumber(numb1);
 
-			dislpayTheResults("The square root of " + numb1 + " is: " + results);
+			dislpayTheResults("The number" + numb1 + " squared is: " + results);
 
 			useAgain = wouldYouLikeToUseAgain();
 
@@ -261,7 +261,7 @@ public class MathLibraryFunctions
 				.showInputDialog("Enter the number of the function to use\n1 for \"Absolute Value\"\n2 for "
 						+ "\"Average Value of an Array\"\n3 for \"Integer Division\"\n4 for \"Max Value in an Array\""
 						+ "\n5 for \"Min Value in an Array\"\n6 for \"Modulus / Remainder\"\n7 for \"Raise a Number to Some Power\""
-						+ "\n8 for \"Round\"\n9 for \"Square Root\"\n10 for \"Convert String to int\"");
+						+ "\n8 for \"Round\"\n9 for \"Square a number\"\n10 for \"Convert String to int\"");
 
 		return pickAFunction;
 	}
@@ -279,7 +279,7 @@ public class MathLibraryFunctions
 
 	}
 
-	public boolean canBeInt(String tempInput) // Written by Doc in class/ verifies can be an integer
+	public boolean canBeInt(String tempInput) // verifies can be an integer
 	{
 		int lookAtCharAt = 0;
 
@@ -399,7 +399,7 @@ public class MathLibraryFunctions
 		return numb1;
 	}
 
-	public int squareRoot(int numb1) // performs the square root of number entered
+	public int squaredNumber(int numb1) // performs the square root of number entered
 	{
 		int result;
 
