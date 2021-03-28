@@ -1,5 +1,3 @@
-// Chris Foremny IT-2789
-
 package libraryFunctions;
 
 import javax.swing.JOptionPane;
