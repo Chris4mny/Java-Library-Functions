@@ -1,5 +1,3 @@
-// Chris Foremny IT-2789
-
 package libraryFunctions; 
 
 public class ReadMeFirst
@@ -7,12 +5,12 @@ public class ReadMeFirst
 	/*
 	 * Library Functions
 	 * 
-	 * This lab is ìproblem orientedî. It contains a problem/solution scenario.
+	 * This lab is ‚Äúproblem oriented‚Äù. It contains a problem/solution scenario.
 	 * 
 	 * Use all your programming skills to implement the scenario. This course
 	 * continues your understanding of programming AND introduces coding.
 	 * 
-	 * You should be able to read or listen to your userís needs and, from them,
+	 * You should be able to read or listen to your user‚Äôs needs and, from them,
 	 * begin to synthesize the requirement and features. [the scope of this course
 	 * does not include implementing multiple requirements using multiple classes.]
 	 * 
@@ -20,8 +18,8 @@ public class ReadMeFirst
 	 * diagram for a class that fulfills the requirement. From that class diagram,
 	 * you should be able to complete a class design with commented stubs to create
 	 * a framework from which you can build a solution. The stubs should clearly
-	 * demonstrate your understanding of encapsulation ñ each method does one
-	 * ëthingí, and only one ëthingí.
+	 * demonstrate your understanding of encapsulation ‚Äì each method does one
+	 * ‚Äòthing‚Äô, and only one ‚Äòthing‚Äô.
 	 * 
 	 * Once the design is complete, you should complete the coding that will
 	 * implement your design. There are three basic programming structures:
